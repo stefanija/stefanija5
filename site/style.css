@@ -1,0 +1,27 @@
+h1
+{
+	background-color: blue;
+
+
+}
+h3
+{
+	clear: both;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+
+p
+{
+	float: left;
+	width:50%;
+	background: green;
+	border: 1px dotted black;
+	padding: 10px;
+
+}
+
