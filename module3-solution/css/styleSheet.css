@@ -1,0 +1,129 @@
+body
+{
+font-size: 16px;
+color: #fff;
+background-color: #7ac5cd;
+font-family: Verdana;
+margin: 0;
+padding: 0;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+#header-nav
+{
+  background-color: #00c87c;
+  border-radius: 0;
+  border: 0;
+ padding:20px;
+
+
+}
+
+
+.navbar-brand h1 /*Imeto*/
+{
+font-family: cursive;
+color:#7d0541;
+font-size: 2em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin:10px;
+line-height: .05;
+}
+
+@media(max-width: 396px)
+{
+  .navbar-brand h1
+  {
+    font-size: 10vw;
+    margin-left: 0;
+
+  }
+
+ 
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+  text-decoration: none;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+  margin-right: -10px;
+
+}
+
+#Our-menu
+{
+font-size: 1.8em;
+color:#7d0541;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+
+#collapsable-nav #nav-list li
+{
+   
+
+  display: table-row;
+  font-size: 6vw;
+  font-family: cursive;
+  width: 100%;
+  border-bottom: 1px solid white;
+ margin: 0;
+ float:right;
+
+ 
+}
+
+
+
+#collapsable-nav #nav-list 
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  clear:both;
+  background-color: #893d54;
+}
+
+.container #row
+{
+  margin:0;
+  padding: 0;
+  border: 0;
+}
+
+.container #p1,.container #p2,.container #p3
+{
+
+  border: 1px solid #7d0541;
+  background-color: #5faa62;
+  padding: 5px;
+  margin-bottom: 15px;
+  
+
+}
+
+ p
+{
+  padding: 10px;
+  margin:10px;
+   
+
+}
+
+#main-content
+{
+  padding:0;
+}
